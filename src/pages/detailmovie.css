@@ -1,0 +1,19 @@
+.details-movies{
+    text-align: center;
+}
+.detail-movie{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+    padding-top: 80px;
+    
+}
+.container-img{
+    width: 600px;
+    height: 700px;
+}
+.description-movie h2{
+    font-size: 4rem;
+}

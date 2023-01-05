@@ -1,0 +1,13 @@
+.nav-pagination{
+    padding: 20px 0;
+}
+.nav-pagination button{
+    border: none 0;
+    width: 80px;
+    background: #74AD5C;
+    color: aliceblue;
+    height: 35px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 3px;
+}

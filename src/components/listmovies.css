@@ -1,0 +1,17 @@
+.list-movies{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,250px));
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 80px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.list-movies h2{
+    font-size: 3rem;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    grid-column: 1/4;
+}

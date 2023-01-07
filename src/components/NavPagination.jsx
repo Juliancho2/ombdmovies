@@ -1,13 +1,14 @@
 import React from 'react'
 import './navpagination.css'
 
-export const NavPagination = ({numberPage,setNumberPage}) => {
+export const NavPagination = ({numberPage,handleFormerPage,handleNextPage}) => {
+    const MIN_PAGE=2;
     return (
         <div className='nav-pagination'>
            {
-            numberPage > 2?<button  type="submit" onClick={()=>setNumberPage(prev=>prev - 1)}>Anterior</button>:""
+            numberPage > MIN_PAGE?<button  type="submit" onClick={handleFormerPage}>Anterior</button>:""
            }
-           <button type="submit" onClick={()=>setNumberPage(prev=>prev + 1)}>Siguiente</button>
+           <button type="submit" onClick={handleNextPage}>Siguiente</button>
         </div>
     )
 }

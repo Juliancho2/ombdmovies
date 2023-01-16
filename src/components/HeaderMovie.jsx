@@ -8,7 +8,7 @@ const HeaderMovie = ({ handleChange, handleSubmit, searchMovie, redirectHome }) 
       <nav>
         <h3 onClick={redirectHome}>OmdbMovies</h3>
         <form>
-          <input type="text" name="" id="" onChange={handleChange} value={searchMovie} placeholder="Buscar..." />
+          <input type="text" name="" id="" onChange={handleChange} value={searchMovie} placeholder="Search..." />
           <button><FontAwesomeIcon icon="fa-solid fa-magnifying-glass" /></button>
         </form>
       </nav>

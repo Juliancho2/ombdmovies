@@ -38,7 +38,7 @@ function App() {
         /> 
       <Routes>
         <Route path='/' element={<Home data={data} loading={loading} error={error} numberPage={numberPage}  handleFormerPage={handleFormerPage} handleNextPage={handleNextPage}/>} />
-        <Route path='/search/:id' element={<SearchMovie  />}/>
+        <Route path='/search/:id' element={<SearchMovie />}/>
         <Route path='/movie/:id' element={<DetailsMovies  />}/>
         <Route path='*' element={<h1 style={{paddingTop:"80px",margin:0,color:"white",textAlign:"center"}}>Not found 404</h1>}/>
       </Routes>

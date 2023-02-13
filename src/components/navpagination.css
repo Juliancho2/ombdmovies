@@ -1,7 +1,11 @@
-.nav-pagination{
+.nav-pagination {
+    position: absolute;
     padding: 20px 0;
+    bottom: 0;
+    width: 100%;
 }
-.nav-pagination button{
+
+.nav-pagination button {
     border: none 0;
     width: 80px;
     background: #74AD5C;
